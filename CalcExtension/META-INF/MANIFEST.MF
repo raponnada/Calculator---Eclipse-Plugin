@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: CalcExtension
+Bundle-SymbolicName: CalcExtension;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.extn.calc.model.Activator
+Require-Bundle: org.eclipse.core.runtime,
+ Calculator;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
